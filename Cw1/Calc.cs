@@ -27,6 +27,8 @@ public class Calc
                 return a % b;
             case "avg":
                 return CalculateAverage();
+            case "max":
+                return CalculateMax();
         }
         return 0;
     }
@@ -36,7 +38,7 @@ public class Calc
         return (a + b)/2;
     }
     
-    public double CalculateMax(){
+    private double CalculateMax(){
         return Math.Max(a, b);
     }
 }
