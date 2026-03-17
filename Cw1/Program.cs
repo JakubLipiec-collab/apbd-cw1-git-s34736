@@ -12,6 +12,7 @@
             Console.Write("Please input an operator(+,-,/,*): ");
             string op = Console.ReadLine();
             Calc c = new Calc(firstValue, secondValue);
+            Console.WriteLine("Results: "+c.Calculate(op));
         }
     }
 }

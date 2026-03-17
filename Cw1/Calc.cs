@@ -11,6 +11,22 @@ public class Calc
     }
     public double Calculate(string operation)
     {
+        if (operation == "+")
+        {
+            return a + b;
+        }
+        if (operation == "-")
+        {
+            return a - b;
+        }
+        if (operation == "*")
+        {
+            return a * b;
+        }
+        if (operation == "/")
+        {
+            return a / b;
+        }
         return 0;
     }
 }
