@@ -27,6 +27,16 @@ public class Calc
         {
             return a / b;
         }
+
+        if (operation == "^")
+        {
+            return Math.Pow(a, b);
+        }
+
+        if (operation == "%")
+        {
+            return a % b;
+        }
         return 0;
     }
 }
