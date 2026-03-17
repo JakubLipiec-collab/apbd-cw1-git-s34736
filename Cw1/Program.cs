@@ -13,6 +13,7 @@
             string op = Console.ReadLine();
             Calc c = new Calc(firstValue, secondValue);
             Console.WriteLine("Results: "+c.Calculate(op));
+            Console.WriteLine("\nThank you for using this app! Goodbye");
         }
     }
 }
