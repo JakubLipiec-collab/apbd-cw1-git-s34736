@@ -29,6 +29,8 @@ public class Calc
                 return CalculateAverage();
             case "max":
                 return CalculateMax();
+            case "min":
+                return CalculateMin();
         }
         return 0;
     }
@@ -42,7 +44,7 @@ public class Calc
         return Math.Max(a, b);
     }
     
-    public double CalculateMin()
+    private double CalculateMin()
     {
         return Math.Min(a, b);
     }
