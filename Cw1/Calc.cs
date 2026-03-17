@@ -41,4 +41,9 @@ public class Calc
     private double CalculateMax(){
         return Math.Max(a, b);
     }
+    
+    public double CalculateMin()
+    {
+        return Math.Min(a, b);
+    }
 }
