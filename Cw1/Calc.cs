@@ -28,4 +28,9 @@ public class Calc
         }
         return 0;
     }
+
+    public double CalculateAverage()
+    {
+        return (a + b)/2;
+    }
 }
