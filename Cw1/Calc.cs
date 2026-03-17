@@ -25,11 +25,13 @@ public class Calc
                 return Math.Pow(a, b);
             case "%":
                 return a % b;
+            case "avg":
+                return CalculateAverage();
         }
         return 0;
     }
 
-    public double CalculateAverage()
+    private double CalculateAverage()
     {
         return (a + b)/2;
     }
