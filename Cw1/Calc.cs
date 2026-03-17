@@ -11,31 +11,20 @@ public class Calc
     }
     public double Calculate(string operation)
     {
-        if (operation == "+")
+        switch (operation)
         {
-            return a + b;
-        }
-        if (operation == "-")
-        {
-            return a - b;
-        }
-        if (operation == "*")
-        {
-            return a * b;
-        }
-        if (operation == "/")
-        {
-            return a / b;
-        }
-
-        if (operation == "^")
-        {
-            return Math.Pow(a, b);
-        }
-
-        if (operation == "%")
-        {
-            return a % b;
+            case "+":
+                return a + b;
+            case "-":
+                return a - b;
+            case "*":
+                return a * b;
+            case "/":
+                return a / b;
+            case "^":
+                return Math.Pow(a, b);
+            case "%":
+                return a % b;
         }
         return 0;
     }
