@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, User!");
+            Console.WriteLine("Welcome to Cw1.Calculator!");
             Console.Write("Please input a number for the first value: ");
             double firstValue = double.Parse(Console.ReadLine());
             Console.Write("Please input a number for the second value: ");
